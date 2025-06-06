@@ -1,11 +1,11 @@
 
 * {
-    color: #cccccf;
+    color: #000000;
 }
 
 header {
     background-color: #f3f3f5;
-    color: rgb(216, 216, 218);
+    color: rgb(0, 0, 0);
     padding: 10px;
     display: flex;
     justify-content: center;
