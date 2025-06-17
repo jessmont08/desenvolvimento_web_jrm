@@ -67,6 +67,7 @@ nav li {
   padding: 20px;
   box-sizing: border-box;
   color: gray;
+  display: flex;
 }
 
 .container p {
@@ -144,3 +145,11 @@ section article {
   box-sizing: border-box; 
   min-width: 300px;        
 }
+
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+
