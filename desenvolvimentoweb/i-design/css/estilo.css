@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    height: 400px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 11rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: -60px;
+}
+
+.principal {
+    background-image: url('../img/background.jpg');
+}
+
+nav {
+    background-color: #717172;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+nav a {
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: block;
+    transition: background-color 0.9s;
+}
+
+nav a:hover {
+    background-color: #fcfcfc;
+    color: #0e0d0d;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+.container {
+  width: 130%;
+  max-width: 1200px; 
+  margin: 90px auto; 
+  padding: 20px;
+  box-sizing: border-box;
+  color: gray;
+}
+
+.container p {
+  text-indent: 1.25cm; 
+  line-height: 1.5; 
+  text-align: justify; 
+}
+
+footer {
+    background-color: #4d4c4c;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 60px; margin-top: 3px;
+}
+
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type='text'],
+input[type='email'],
+select,
+textarea{
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.grupo-radio, .grupo-checkbox{
+    text-align: left;
+    margin-top: 5px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    line-height: 2px;
+}
+
+button{
+    margin-top: 15px;
+    padding:  20px 40px;
+    border: none;
+    background-color: #464545;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;   
+}
+
+button:hover{
+    background-color: #191d19;
+}
+
+.titulodois {
+    text-align: center;
+    font-size: 2.5rem;}
+
+section {
+    display: flex;            
+    gap: 20px;             
+     flex-wrap: wrap;          
+    justify-content: center;  
+    color: #4d4c4c;
+    margin-top: 70px;
+}
+
+section article {
+  flex: 1 1 45%;         
+  box-sizing: border-box; 
+  min-width: 300px;        
+}
