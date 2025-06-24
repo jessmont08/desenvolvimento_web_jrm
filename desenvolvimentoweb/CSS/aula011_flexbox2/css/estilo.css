@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, section, aside, footer {
+    padding: 20px;
+    border: 1px dashed #52cbdb;
+}
+
+.banner {
+    background-color: rgb(30, 76, 145);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+.navegacao {
+    background-color: rgb(39, 152, 180);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    transition: background-color 0.7s;
+}
+
+.navegacao a:hover {
+    background-color: #43cea0;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.area-conteudo {
+    background-color: rgb(202, 232, 233);
+    flex: 3;
+    min-height: 400px;
+}
+
+.barra-lateral {
+    background-color: #89aec7;
+    flex: 1;
+}
+
+.rodape {
+    background-color: #2791d8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .conteudo-principal {
+        flex-direction: column;
+    }
+    .area-conteudo, .barra-lateral {
+        width: 100%;
+    }
+
+    .navegacao {
+        flex-direction: column;
+    }
+
+    .navegacao a {
+        border-bottom: 1px solid #555
+    }
+}
+
+body > * {
+    padding: 20px;
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: "roboto";
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main > article {
+    flex: 1;
+    order: 1;
+}
+
+main > nav,
+main > aside {
+    flex: 0 0 20vw;
+}
+
+main > nav {
+    background-color: rgb(197, 32, 95);
+    order: 3;
+}
+
+main > aside {
+    background-color: beige;
+    paint-order: 7;
+}
+
+header, footer {
+    background-color: palevioletred;
+    height: 20vh;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}
