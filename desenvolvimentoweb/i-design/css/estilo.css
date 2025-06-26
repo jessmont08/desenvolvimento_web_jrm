@@ -134,7 +134,7 @@ button:hover{
 section {
     display: flex;            
     gap: 20px;             
-     flex-wrap: wrap;          
+    flex-wrap: wrap;          
     justify-content: center;  
     color: #4d4c4c;
     margin-top: 70px;
