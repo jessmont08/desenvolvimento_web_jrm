@@ -59,7 +59,15 @@ main {
     text-decoration: underline;
 }
 
-.atendimentos {
+.principais {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;                       
+  padding: 40px;
+  font-size: 25px;
+}
+
+.principais2 {
   display: flex;
   justify-content: space-between;
   gap: 20px;                       
@@ -103,7 +111,7 @@ h1 {
 }
 
 
-.relatos {
+.topicos{
   display: flex;
   flex-wrap: wrap;               
   justify-content: space-between;
@@ -112,7 +120,7 @@ h1 {
   font-size: 22px;
 }
 
-.relatos2 {
+.topicos{
     display: flex;
     flex-wrap: wrap;               
     justify-content: space-between;
@@ -121,7 +129,7 @@ h1 {
     font-size: 22px;
 }
 
-.relatos div {
+.topicos div {
   flex: 1 1 300px;              
   text-align: center;
   font-style: italic;
